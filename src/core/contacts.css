@@ -1,0 +1,80 @@
+
+*{
+    background-color: rgb(196, 255, 225);
+}
+
+.update-btn{
+    background-color: rgb(148, 148, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.search-bar{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 500px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px 500px;
+    padding: 10px;
+}
+
+.heading-container{
+    display: grid;
+    grid-template-columns: 500px 590px;
+    padding: 10px;
+}
+
+.heading{
+    font-size: 50px;
+}
+
+.head-btn{
+    padding-top: 20px;
+    text-align: right;
+}
+
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    border-bottom: 1px solid grey;
+    padding: 15px;
+    font-size: 22px;
+    text-align: left;
+}
+
+.del-btn{
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.del-btn-div{
+    float: right;
+}
+
+.create-btn{
+    padding: 10px;
+    background-color: rgb(0, 155, 0);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+
+.master-container{
+    margin: 50px;
+}

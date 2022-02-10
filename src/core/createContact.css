@@ -1,0 +1,65 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-btn-update{
+    background-color: yellow;
+}
+
+.create-contact-container{
+    margin-left: 33.2%;
+}
+
+.new-contact-container{
+    display: grid;
+    grid-template-columns: 300px 212px;
+    margin-top: 100px;
+    margin-left: 33.2%;
+}
+
+.home-btn{
+    margin-top: 10px;
+    text-align: right;
+}
+
+.home-btn button{
+    background-color: rgb(0, 146, 32);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.new-contact-heading{
+    font-size: 30px;
+}
+
+.form-group{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-control{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 6px;
+}
+
+.form-btn{
+    background-color: rgb(0, 146, 32);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+}
